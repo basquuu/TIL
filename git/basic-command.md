@@ -17,7 +17,7 @@ $ git add .
 
 ## status
 - 현재 git 상태 확인 
-``` bashW
+``` bash
 $ git status
 ```
 
@@ -27,4 +27,18 @@ $ git status
 
 ```bash
 $ git commit -m "first commit(변화사항 기록)"
+```
+
+## remote add
+- 원격저장소의 주소를 저장하는 명령어 
+
+``` bash
+$ git add {remote_name} {remote_url}
+```
+
+## push
+- 원격저장소로 브랜치를 업로드 하는 명령어
+```bash
+git push origin master
+git push {remote_name} {branch_name}
 ```
